@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <header>
+            <div class="image-text">
+                <div class="text header-text">
+                    <span class="name">Welcome</span>
+                </div>
+                <span class="toggle">
+                    <span class="change">&#10006;</span>
+                </span>
+            </div>
+        </header>
+        
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="nav-links">
+                    <li class="nav-logo">
+                        <span class="logo">                                
+                            <img src="img/avatar.png" alt="logo">
+                        </span>
+                        <div class="text">
+                            <span class="users">Odins</span>
+                            <p>Balance: <span class="current-amount">N 0.00</span></p>
+                        </div>
+                    </li>
+                    <li class="active">
+                        <a href="./home.html">
+                            <i class="fa fa-home icon" aria-hidden="true"></i>
+                            <span class="link_name text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./data.html">
+                            <i class="fa fa-signal icon" aria-hidden="true"></i>
+                            <span class="link_name text">Buy Data</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./airtime.html">
+                            <i class="fa fa-phone-square icon" aria-hidden="true"></i>
+                            <span class="link_name text">Airtime TopUp</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <div class="iocn-link">
+                            <a href="#" class="arr">
+                                <i class="fa fa-lightbulb icon" aria-hidden="true"></i>
+                                <span class="link_name text">Utility Payment</span>
+                            </a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a class="link_name text" href="#">Utility Payment</a></li>
+                            <li><a href="./bills.html" class="text">Bills Payment</a></li>
+                            <li><a href="./cablesub.html" class="text">Cable Subscription</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <div class="iocn-link">
+                            <a class="arr">
+                                <i class="fa fa-credit-card icon" aria-hidden="true"></i>
+                                <span class="link_name text">Fund Wallets</span>
+                            </a>
+                            <i class='bx bxs-chevron-down arrow' ></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a class="link_name text" href="#">Fund Wallets</a></li>
+                            <li>
+                                <a href="./payonline.html" class="text">
+                                    Fund with Paystack(ATM)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./monify.html" class="text">
+                                    Fund with Payment Gateway(ATM)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./automated.html" class="text">
+                                    Automated Bank Transfer(0.87% charges)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./coupon.html" class="text">
+                                    Fund with Coupon
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./pricing.html">
+                            <i class="fa fa-money icon" aria-hidden="true"></i>
+                            <span class="link_name text">Pricing</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./FAQs.html">
+                            <i class="fa fa-question-circle icon" aria-hidden="true"></i>
+                            <span class="link_name text">F.A.Qs</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./user-detail.html">
+                            <i class="fa fa-user icon" aria-hidden="true"></i>
+                            <span class="link_name text">Account</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./user_pin.html">
+                            <i class="fa fa-key icon" aria-hidden="true"></i>
+                            <span class="link_name text">Change Pin</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./EditProfile.html">
+                            <i class="fa fa-cog icon" aria-hidden="true"></i>
+                            <span class="link_name text">Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./documentation.html">
+                            <i class="fa fa-code icon" aria-hidden="true"></i>
+                            <span class="link_name text">Developer's API</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/index.html">
+                            <i class="fa fa-sign-out icon" aria-hidden="true"></i>
+                            <span class="link_name text">Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="home">
+        <div class="middle-container">
+            <header>
+                <div>
+                    <div class="text">
+                        <div class="toggle main-toggle">
+                            <span class="change">&#9776;</span>
+                        </div>
+                        <a href="/index.html" class="welcome-text">
+                            <i class="fa fa-power-off"></i>
+                            <span class="name">Logout</span>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="main-container">
+                    <div class="main-text">
+                        <h1>
+                            WELCOME TO ODINSDATA
+                        </h1>
+                        <P>Refer people to DanOdinsdata and enjoy 1% of there first Funding and 0.5% of their continuous funding </P>
+                        <P>Referal Link: </P>
+                        <P>Buy data and airtime at lesser price </P>
+                    </div>
+                    <button>Fund Wallet</button>
+                </div>
+            </main>   
+            <aside>
+                <div class="aside-container"> 
+                    <div class="aside">
+                        <span>
+                            Good Day, <span class="users">Odins</span>
+                        </span>
+                        <span class="googleimg"><img src="../img/googleplay.png" alt="googleplay"></span>
+                    </div>
+                    <div class="word">
+                        <h3>Package : Smart Earner</h3>
+                        <div class="word-text">
+                            <span class="heading">Account status:&nbsp;</span>your Account is not yet verify, Your transaction is limit to 30000 per day &nbsp;<a href="./kyc.html"> click here </a>&nbsp;to verify it.
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <marquee behavior="rotate" direction="left">All network data going smoothly, Customer Care WhatsApp line is 08141593217</marquee>
+                        <div class="scroll-image flex">
+                            <div class="scroll-imgbox show">
+                                <img src="./img/FB_IMG_16543393102883946.jpg" alt="">
+                            </div>
+                            <div class="scroll-imgbox">
+                                <img src="./img/FB_IMG_16380987849908179.jpg" alt="">
+                            </div>
+                            <div class="scroll-imgbox">
+                                <img src="./img/FB_IMG_16543393102883946.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="grid-box grid">
+                            <div class="box flex">
+                                <div class="img-det purple"><i class="fa fa-history" aria-hidden="true"></i></div>
+                                <div class="box-text">
+                                    <a href="#">
+                                        Transaction
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box flex">
+                                <div class="img-det purple"><i class="fa fa-history" aria-hidden="true"></i></div>
+                                <div class="box-text">
+                                    <a href="#">
+                                        Data Transaction
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box flex">
+                                <div class="img-det warning"><i class="fa fa-history" aria-hidden="true"></i></div>
+                                <div class="box-text">
+                                    <a href="#">
+                                        Wallet summary
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box flex">
+                                <div class="img-det success"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                <div class="box-text">
+                                    <a href="#">
+                                        Upgrade to Affiliate N3000
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box flex">
+                                <div class="img-det danger"><i class="fa fa-users" aria-hidden="true"></i></div>
+                                <div class="box-text">
+                                    <a href="#">
+                                        Upgrade to Top User N5000
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-box2 grid">
+                        <div class="box flex">
+                            <div class="img-det royal"><i class="fa fa-save" aria-hidden="true"></i></div>
+                            <div class="box-text">
+                                Wallet Balance
+                                <div>N 0.00</div>
+                            </div>
+                        </div>
+                        <div class="box flex">
+                            <div class="img-det royal"><i class="fa fa-users" aria-hidden="true"></i></div>
+                            <div class="box-text">
+                                Referral Bonus
+                                <div>N 0.00</div>
+                            </div>
+                        </div>
+                        <div class="box flex">
+                            <div class="img-det royal"><i class="fa fa-user" aria-hidden="true"></i></div>
+                            <div class="box-text">
+                                My Total Referral
+                                <div>1</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-box3 grid">
+                        <div class="boxe">
+                            <div class="boxe-text">
+                                <h5>Notifications</h5>
+                                <p>Good morning dear customers, all service is going smoothly and delivery is instantly, thanks for choosing DanOdinsdata from admin.</p>
+                                <button class="warning"><a href="">all messages</a></button>
+                            </div>
+                        </div>
+                        <div class="boxe">
+                            <div class="boxe-text">
+                                <h5>FAQs:</h5>
+                                <p>Please go through them to have a better knowledge of this platform</p>
+                                <button class="royal"><a href="./FAQs.html"><i class="fa fa-question" aria-hidden="true"></i>&nbsp;FAQs</a></button>
+                            </div>
+                        </div>
+                        <div class="boxe">
+                            <div class="boxe-text">
+                                <h5>Support Team:</h5>
+                                <p>Have anything to say to us? Please contact our Support Team on Whatsapp</p>
+                                <button class="success"><a href="https//wa.me/+2348141593217"><i class="fa fa-whatsapp" aria-hidden="true"></i>&nbsp;Message us on WhatsApp</a></button>
+                                <button class="success"><a href="https//wa.me/+2349173625626"><i class="fa fa-whatsapp" aria-hidden="true"></i>&nbsp;Join Our WhatsApp Group</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-box grid">
+                        <div class="service-grid">
+                            <a href="./airtime.html" class="flex">
+                                <img src="./img/airtime.svg" alt="" class="airtimeimg">
+                                <div class="word">Airtime TopUp</div>
+                            </a>
+                        </div>
+                        <div class="service-grid">
+                            <a href="./data.html" class="flex">
+                                <img src="./img/data.jpg" alt="">
+                                <div class="word">Buy Data</div>
+                            </a>
+                        </div>
+                        <div class="service-grid">
+                            <a href="./airtime_funding.html" class="flex">
+                                <img src="./img/airtime2cash.jpg" alt="">
+                                <div class="word">Airtime to Cash</div>
+                            </a>
+                        </div>
+                        <div class="service-grid">
+                            <a href="./bills.html" class="flex">
+                                <img src="./img/utility.jpg" alt="">
+                                <div class="word">Electricity Bills</div>
+                            </a>
+                        </div>
+                        <div class="service-grid">
+                            <a href="./cablesub.html" class="flex">
+                                <img src="./img/cable.jpg" alt="">
+                                <div class="word">Cable Subscription</div>
+                            </a>
+                        </div>
+                        <div class="service-grid">
+                            <a href="./bonus.html" class="flex">
+                                <img src="./img/fundacc.JPG" class="bonusimg" alt="">
+                                <div class="word">Bonus to Wallet</div>
+                            </a>
+                        </div>
+                        <div class="service-grid">
+                            <a href="" class="flex">
+                                <img src="./img/sms.png" alt="" class="bulkimg">
+                                <div class="word">Bulk Sms</div>
+                            </a>
+                        </div>
+                        <div class="service-grid">
+                            <a href="./result.html" class="flex">
+                                <img src="./img/resultchecker.png" alt="" class="resultimg">
+                                <div class="word">Results Checker</div>
+                            </a>
+                        </div>
+                        <div class="service-grid">
+                            <a href="./referral.html" class="flex">
+                                <img src="./img/referral.png" alt="">
+                                <div class="word">My Referrals</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="stat-cont">
+                        <h2>TRANSACTION STATISTICS</h2>
+                        <div class="grid statistics">
+                            <div class="box flex">
+                                <div class="warning-txt"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                <div class="box-text">
+                                    Wallet Balance
+                                    <div>N 0.00</div>
+                                </div>
+                            </div>
+                            <div class="box flex">
+                                <div class="success-txt"><i class="fa fa-bank" aria-hidden="true"></i></div>
+                                <div class="box-text">
+                                    Total Funding
+                                    <div>N 0.00</div>
+                                </div>
+                            </div>
+                            <div class="box flex">
+                                <div class="danger-txt"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+                                <div class="box-text">
+                                    Total Spent
+                                    <div>N 0.00</div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </aside>  
+        </div>
+    </section>
+<script src="./js/script.js"></script>
+</body>
+</html>

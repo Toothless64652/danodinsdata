@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    height: 100vh;
+    width: 100%;
+    background: url(./assets/img/back.jpg) orange fixed;
+    background-size: cover;
+}
+
+main {
+    font-size: 20px;
+    height: 100%;
+    width: 400px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+.login {
+    display: block;
+}
+
+.logo h1 {
+    font-family: Poppins, sans-serif;
+    background-color: orange;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.logo h1 span {
+    color: orange;
+    background-color: #fff;
+}
+
+.form {
+    text-align: left;
+}
+
+.form h2 {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.form label {
+    font-size: 15px;
+    font-family: Poppin, sans-serif;
+    font-weight: bold;
+    color: #808080;
+}
+
+.unique input {
+    background-color: aliceblue;
+    padding: 10px 15px;
+    margin: 10px 0;
+    outline: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+.btn {
+    font-size: 15px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn a {
+    color: blue;    
+}
+
+.btn button {
+    padding: 10px 20px;
+    background: orange;
+    color: white;
+}
+
+.link {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.link a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.gglogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 40%;
+    margin: 20px;
+}
+
+.sign-up {
+    display: none;
+    width: 100%;
+}
+
+p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#terms {
+    font-size: 15px;    
+    text-decoration: none;
+    color: blue;
+}
+
+@media (max-width: 480px) { 
+    main {
+        width: 300px;
+    }   
+}

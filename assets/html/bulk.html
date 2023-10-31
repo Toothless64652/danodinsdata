@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Forgotten Password</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <header>
+            <div class="image-text">
+                <div class="text header-text">
+                    <span class="name">Welcome</span>
+                </div>
+                <span class="toggle">
+                    <span class="change">&#10006;</span>
+                </span>
+            </div>
+        </header>
+        
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="nav-links">
+                    <li class="nav-logo">
+                        <span class="logo">                                
+                            <img src="img/avatar.png" alt="logo">
+                        </span>
+                        <div class="text">
+                            <span class="users">Odins</span>
+                            <p>Balance: <span class="current-amount">N 0.00</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./home.html">
+                            <i class="fa fa-home icon" aria-hidden="true"></i>
+                            <span class="link_name text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./data.html">
+                            <i class="fa fa-signal icon" aria-hidden="true"></i>
+                            <span class="link_name text">Buy Data</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./airtime.html">
+                            <i class="fa fa-phone-square icon" aria-hidden="true"></i>
+                            <span class="link_name text">Airtime TopUp</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <div class="iocn-link">
+                            <a href="#" class="arr">
+                                <i class="fa fa-lightbulb icon" aria-hidden="true"></i>
+                                <span class="link_name text">Utility Payment</span>
+                            </a>
+                            <i class='bx bxs-chevron-down arrow'></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a class="link_name text" href="#">Utility Payment</a></li>
+                            <li><a href="./bills.html" class="text">Bills Payment</a></li>
+                            <li><a href="./cablesub.html" class="text">Cable Subscription</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <div class="iocn-link">
+                            <a class="arr">
+                                <i class="fa fa-credit-card icon" aria-hidden="true"></i>
+                                <span class="link_name text">Fund Wallets</span>
+                            </a>
+                            <i class='bx bxs-chevron-down arrow' ></i>
+                        </div>
+                        <ul class="sub-menu">
+                            <li><a class="link_name text" href="#">Fund Wallets</a></li>
+                            <li>
+                                <a href="./payonline.html" class="text">
+                                    Fund with Paystack(ATM)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./monify.html" class="text">
+                                    Fund with Payment Gateway(ATM)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./automated.html" class="text">
+                                    Automated Bank Transfer(0.87% charges)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./coupon.html" class="text">
+                                    Fund with Coupon
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./pricing.html">
+                            <i class="fa fa-money icon" aria-hidden="true"></i>
+                            <span class="link_name text">Pricing</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./FAQs.html">
+                            <i class="fa fa-question-circle icon" aria-hidden="true"></i>
+                            <span class="link_name text">F.A.Qs</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./user-detail.html">
+                            <i class="fa fa-user icon" aria-hidden="true"></i>
+                            <span class="link_name text">Account</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./user_pin.html">
+                            <i class="fa fa-key icon" aria-hidden="true"></i>
+                            <span class="link_name text">Change Pin</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./EditProfile.html">
+                            <i class="fa fa-cog icon" aria-hidden="true"></i>
+                            <span class="link_name text">Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./documentation.html">
+                            <i class="fa fa-code icon" aria-hidden="true"></i>
+                            <span class="link_name text">Developer's API</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/index.html">
+                            <i class="fa fa-sign-out icon" aria-hidden="true"></i>
+                            <span class="link_name text">Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="home">
+        <div class="middle-container">
+            <header>
+                <div>
+                    <div class="text">
+                        <div class="toggle main-toggle">
+                            <span class="change">&#9776;</span>
+                        </div>
+                        <a href="/index.html" class="welcome-text">
+                            <i class="fa fa-power-off"></i>
+                            <span class="name">Logout</span>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <main class="form-container">
+                <div class="container">
+                    <h2>Chabge Password</h2>
+                    <form action="" class="grid form-grid">
+                        <div class="fprgotten-pass-form">
+                            <legend>Email*</legend>
+                            <input type="email" name="Email" id="forget_password_Email" required>
+                            <br><br>
+                            <button class="btn danger" id="forget_password_btn">Proceed</button>
+                        </div>
+                        <div class="forget_password_code">
+                            <h4>Forgot Your Password.</h4>
+                            <p>Forgotten your password? Enter your email address below, and we'll email instructions for setting a new one</p>
+                        </div>
+                    </form>
+                </div>
+            </main>         
+    </section>
+<script src="./js/script.js"></script>
+</body>
+</html>
