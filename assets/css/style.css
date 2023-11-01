@@ -31,6 +31,10 @@ main {
     display: block;
 }
 
+.logo {
+    width: 100%; 
+}
+
 .logo h1 {
     font-family: Poppins, sans-serif;
     background-color: orange;
